@@ -5,7 +5,7 @@ function App(){
   const [tarefas, setTarefas] = useState([]);
 
 useEffect(() => {
-  
+  alert('Tarefa registrada com sucesso!');
 }, []);
 
   function handleRegister(e){
