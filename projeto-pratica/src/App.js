@@ -1,11 +1,15 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import './App.css';
 
 function App(){
   const [input, setInput] = useState('');
   const [tarefas, setTarefas] = useState([]);
 
 useEffect(() => {
-  alert('Tarefa registrada com sucesso!');
+  const tarefas = localStorage.getItem('@tarefas ');
+  if(tarefas){
+    setTarefas(JSON.parse(tarefas));
+  }
 }, []);
 
   function handleRegister(e){
@@ -13,6 +17,8 @@ useEffect(() => {
 
     setTarefas([...tarefas, input]);
     setInput('');
+
+
 
   }
 

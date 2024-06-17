@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+### Objetivo do Projeto:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O objetivo deste projeto é desenvolver uma aplicação web utilizando a biblioteca React, com o intuito de aprender e dominar os conceitos fundamentais e avançados dessa tecnologia. Este projeto servirá como um guia prático para entender os princípios de desenvolvimento de interfaces de usuário com React, além de explorar as melhores práticas e padrões de projeto.
 
-## Available Scripts
+### Escopo do Projeto:
 
-In the project directory, you can run:
+Configuração do Ambiente de Desenvolvimento:
 
-### `npm start`
+### Instalação do Node.js e npm.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Configuração do Create React App para iniciar o projeto.
+Configuração de ferramentas auxiliares como ESLint, Prettier e outras.
+Fundamentos do React:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Criação de componentes funcionais e de classe.
 
-### `npm test`
+Utilização de JSX para criar layouts.
+Gerenciamento de estado com hooks (useState, useEffect, etc.).
+Propriedades e comunicação entre componentes (props).
+Estilização:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Aplicação de estilos utilizando CSS Modules, Styled Components e outras abordagens.
+Implementação de design responsivo e boas práticas de UI/UX.
 
-### `npm run build`
+### Gerenciamento de Estado Avançado:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Introdução ao Context API.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Integração com Redux para gerenciar o estado global da aplicação.
+Rotas e Navegação:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Configuração de rotas utilizando React Router.
+ Navegação entre diferentes componentes e páginas.
 
-### `npm run eject`
+### Integração com APIs:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Realização de requisições HTTP utilizando Axios ou Fetch API.
+Consumo de dados externos e exibição na interface.
+Testes:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Implementação de testes unitários com Jest e React Testing Library.
+Testes de integração e end-to-end.
+Boas Práticas e Otimizações:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Divisão de componentes em unidades reutilizáveis.
+Otimização de performance com React.memo e Lazy Loading.
+Adoção de padrões de projeto e arquitetura limpa.
+Deploy e Publicação:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Preparação do build de produção.
+Deploy em plataformas como Vercel, Netlify ou Heroku.
+Monitoramento e manutenção da aplicação em produção.
 
-## Learn More
+### Comandos git
+Configuração de usuário:
+git config --global user.name "Seu Nome"
+git config --global user.email "seu.email@example.com"
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Inicializar repositório:
+git init
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clonar repositório:
+git clone https://github.com/usuario/repositorio.git
 
-### Code Splitting
+Adicionar Arquivos ao indice:
+git add nome_do_arquivo ,
+Para adicionar todos as mudanças git add .
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Fazer commit:
+git commit -m "Mensagem do commit"
 
-### Analyzing the Bundle Size
+Enviar para o repositório remoto:
+git push origin main
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
