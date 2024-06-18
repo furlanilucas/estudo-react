@@ -19,9 +19,6 @@ Gerenciamento de estado com hooks (useState, useEffect, etc.).
 Propriedades e comunicação entre componentes (props).
 Estilização:
 
-### Aplicação de estilos utilizando CSS Modules, Styled Components e outras abordagens.
-Implementação de design responsivo e boas práticas de UI/UX.
-
 ### Gerenciamento de Estado Avançado:
 
 Introdução ao Context API.
@@ -31,12 +28,6 @@ Rotas e Navegação:
 
 ### Configuração de rotas utilizando React Router.
  Navegação entre diferentes componentes e páginas.
-
-### Integração com APIs:
-
-Realização de requisições HTTP utilizando Axios ou Fetch API.
-Consumo de dados externos e exibição na interface.
-Testes:
 
 ### Implementação de testes unitários com Jest e React Testing Library.
 Testes de integração e end-to-end.
@@ -51,25 +42,5 @@ Deploy e Publicação:
 Deploy em plataformas como Vercel, Netlify ou Heroku.
 Monitoramento e manutenção da aplicação em produção.
 
-### Comandos git
-Configuração de usuário:
-git config --global user.name "Seu Nome"
-git config --global user.email "seu.email@example.com"
-
-Inicializar repositório:
-git init
-
-Clonar repositório:
-git clone https://github.com/usuario/repositorio.git
-
-Adicionar Arquivos ao indice:
-git add nome_do_arquivo ,
-Para adicionar todos as mudanças git add .
-
-Fazer commit:
-git commit -m "Mensagem do commit"
-
-Enviar para o repositório remoto:
-git push origin main
 
 
